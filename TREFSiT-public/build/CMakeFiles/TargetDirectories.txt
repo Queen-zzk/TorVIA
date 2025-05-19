@@ -1,0 +1,3 @@
+G:/code/open_src/tor_project/build/CMakeFiles/tor_video.dir
+G:/code/open_src/tor_project/build/CMakeFiles/edit_cache.dir
+G:/code/open_src/tor_project/build/CMakeFiles/rebuild_cache.dir
