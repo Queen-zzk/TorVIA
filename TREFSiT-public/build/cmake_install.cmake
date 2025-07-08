@@ -1,4 +1,4 @@
-# Install script for directory: G:/code/open_src/tor_project
+# Install script for directory: G:/code/temp/tor_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "G:/code/open_src/tor_project/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "G:/code/temp/tor_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

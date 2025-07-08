@@ -1,14 +1,14 @@
 [
 {
-  "directory": "G:/code/open_src/tor_project/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/tor_video.dir/includes_CXX.rsp -g -o CMakeFiles\\tor_video.dir\\src\\tor_video\\main_tor_video.cpp.obj -c G:\\code\\open_src\\tor_project\\src\\tor_video\\main_tor_video.cpp",
-  "file": "G:/code/open_src/tor_project/src/tor_video/main_tor_video.cpp",
+  "directory": "G:/code/temp/tor_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/tor_video.dir/includes_CXX.rsp -g -o CMakeFiles\\tor_video.dir\\src\\tor_video\\main_tor_video.cpp.obj -c G:\\code\\temp\\tor_project\\src\\tor_video\\main_tor_video.cpp",
+  "file": "G:/code/temp/tor_project/src/tor_video/main_tor_video.cpp",
   "output": "CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj"
 },
 {
-  "directory": "G:/code/open_src/tor_project/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/tor_video.dir/includes_CXX.rsp -g -o CMakeFiles\\tor_video.dir\\src\\tor_video\\torv_flow.cpp.obj -c G:\\code\\open_src\\tor_project\\src\\tor_video\\torv_flow.cpp",
-  "file": "G:/code/open_src/tor_project/src/tor_video/torv_flow.cpp",
+  "directory": "G:/code/temp/tor_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/tor_video.dir/includes_CXX.rsp -g -o CMakeFiles\\tor_video.dir\\src\\tor_video\\torv_flow.cpp.obj -c G:\\code\\temp\\tor_project\\src\\tor_video\\torv_flow.cpp",
+  "file": "G:/code/temp/tor_project/src/tor_video/torv_flow.cpp",
   "output": "CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj"
 }
 ]

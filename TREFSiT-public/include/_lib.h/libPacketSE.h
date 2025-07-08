@@ -311,6 +311,7 @@ public:
      * @param tm GMT time
      */
     virtual void        setPckGMTTime(double tm) = 0;
+    virtual void        setPckGMTTime(long tm_high, long tm_low) = 0;
 
     /**
      * @brief set the pcap first packet GMT Time (for SquReader)

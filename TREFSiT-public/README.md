@@ -1,7 +1,7 @@
-# tor_project
+# vpn_project
 
 #### Description
-tor project
+vpn project
 
 #### Software Architecture
 Software architecture description

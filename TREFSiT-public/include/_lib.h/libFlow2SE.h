@@ -10,6 +10,7 @@
 
 #include <vector>
 #include "libFlowBaseSE.h"
+#include "lib_mem_pck_SE.h"
 
 class IFlow2Stat
 {
@@ -45,6 +46,7 @@ public://如果需要大改，可以重载函数
      * @return false 
      */
     virtual bool iterPcap(int type=0) = 0;
+    virtual bool iter_memDB() = 0;
 
     /**
      * @brief 按 “时间段” 遍历
@@ -144,9 +146,21 @@ public:
      * @param fname pcap文件名
      * @param bit hash计算占比特位，建一个2^bit的hash表
      * @param elephant 大流统计的阈值，超过的大流才会被统计
+     * @param hash_m hash表的hash方法，0 -- fram, 1 -- kernel
      * @return IFlow2Stat* 
      */
     static IFlow2Stat* create_flow2_stat(std::string fname, int bit, int elephant, int hash_m);
+
+    /**
+     * @brief Create a flow2 statistics
+     * 
+     * @param lpDB 内存数据包库
+     * @param bit hash计算占比特位，建一个2^bit的hash表
+     * @param elephant 大流统计的阈值，超过的大流才会被统计
+     * @param hash_m hash表的hash方法，0 -- fram, 1 -- kernel
+     * @return IFlow2Stat* 
+     */
+    static IFlow2Stat* create_flow2_stat(I_memory_packet_DB* lpDB, int bit, int elephant, int hash_m);
 };
 
 

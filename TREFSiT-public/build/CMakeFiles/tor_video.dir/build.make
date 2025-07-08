@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\code\open_src\tor_project
+CMAKE_SOURCE_DIR = G:\code\temp\tor_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\code\open_src\tor_project\build
+CMAKE_BINARY_DIR = G:\code\temp\tor_project\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tor_video.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/tor_video.dir/flags.make
 
 CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj: CMakeFiles/tor_video.dir/flags.make
 CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj: CMakeFiles/tor_video.dir/includes_CXX.rsp
-CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj: G:/code/open_src/tor_project/src/tor_video/main_tor_video.cpp
+CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj: G:/code/temp/tor_project/src/tor_video/main_tor_video.cpp
 CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj: CMakeFiles/tor_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\code\open_src\tor_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj -MF CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.obj.d -o CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.obj -c G:\code\open_src\tor_project\src\tor_video\main_tor_video.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\code\temp\tor_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj -MF CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.obj.d -o CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.obj -c G:\code\temp\tor_project\src\tor_video\main_tor_video.cpp
 
 CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\code\open_src\tor_project\src\tor_video\main_tor_video.cpp > CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\code\temp\tor_project\src\tor_video\main_tor_video.cpp > CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.i
 
 CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\code\open_src\tor_project\src\tor_video\main_tor_video.cpp -o CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\code\temp\tor_project\src\tor_video\main_tor_video.cpp -o CMakeFiles\tor_video.dir\src\tor_video\main_tor_video.cpp.s
 
 CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj: CMakeFiles/tor_video.dir/flags.make
 CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj: CMakeFiles/tor_video.dir/includes_CXX.rsp
-CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj: G:/code/open_src/tor_project/src/tor_video/torv_flow.cpp
+CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj: G:/code/temp/tor_project/src/tor_video/torv_flow.cpp
 CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj: CMakeFiles/tor_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\code\open_src\tor_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj -MF CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.obj.d -o CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.obj -c G:\code\open_src\tor_project\src\tor_video\torv_flow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\code\temp\tor_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj -MF CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.obj.d -o CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.obj -c G:\code\temp\tor_project\src\tor_video\torv_flow.cpp
 
 CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\code\open_src\tor_project\src\tor_video\torv_flow.cpp > CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\code\temp\tor_project\src\tor_video\torv_flow.cpp > CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.i
 
 CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\code\open_src\tor_project\src\tor_video\torv_flow.cpp -o CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\code\temp\tor_project\src\tor_video\torv_flow.cpp -o CMakeFiles\tor_video.dir\src\tor_video\torv_flow.cpp.s
 
 # Object files for target tor_video
 tor_video_OBJECTS = \
@@ -109,16 +109,16 @@ tor_video_EXTERNAL_OBJECTS =
 tor_video.exe: CMakeFiles/tor_video.dir/src/tor_video/main_tor_video.cpp.obj
 tor_video.exe: CMakeFiles/tor_video.dir/src/tor_video/torv_flow.cpp.obj
 tor_video.exe: CMakeFiles/tor_video.dir/build.make
-tor_video.exe: G:/code/open_src/tor_project/lib/win/liblibconfig++.dll.a
-tor_video.exe: G:/code/open_src/tor_project/lib/win/lib_TLS2_SE.a
-tor_video.exe: G:/code/open_src/tor_project/lib/win/libFlow2SE.a
-tor_video.exe: G:/code/open_src/tor_project/lib/win/libPcapSE.a
-tor_video.exe: G:/code/open_src/tor_project/lib/win/libPacketSE.a
-tor_video.exe: G:/code/open_src/tor_project/lib/win/libHashSE.a
+tor_video.exe: G:/code/temp/tor_project/lib/win/liblibconfig++.dll.a
+tor_video.exe: G:/code/temp/tor_project/lib/win/lib_TLS2_SE.a
+tor_video.exe: G:/code/temp/tor_project/lib/win/libFlow2SE.a
+tor_video.exe: G:/code/temp/tor_project/lib/win/libPcapSE.a
+tor_video.exe: G:/code/temp/tor_project/lib/win/libPacketSE.a
+tor_video.exe: G:/code/temp/tor_project/lib/win/libHashSE.a
 tor_video.exe: CMakeFiles/tor_video.dir/linkLibs.rsp
 tor_video.exe: CMakeFiles/tor_video.dir/objects1.rsp
 tor_video.exe: CMakeFiles/tor_video.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\code\open_src\tor_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tor_video.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\code\temp\tor_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tor_video.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tor_video.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +130,6 @@ CMakeFiles/tor_video.dir/clean:
 .PHONY : CMakeFiles/tor_video.dir/clean
 
 CMakeFiles/tor_video.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\code\open_src\tor_project G:\code\open_src\tor_project G:\code\open_src\tor_project\build G:\code\open_src\tor_project\build G:\code\open_src\tor_project\build\CMakeFiles\tor_video.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\code\temp\tor_project G:\code\temp\tor_project G:\code\temp\tor_project\build G:\code\temp\tor_project\build G:\code\temp\tor_project\build\CMakeFiles\tor_video.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tor_video.dir/depend
 

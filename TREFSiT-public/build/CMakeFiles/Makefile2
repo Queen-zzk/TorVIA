@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\code\open_src\tor_project
+CMAKE_SOURCE_DIR = G:\code\temp\tor_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\code\open_src\tor_project\build
+CMAKE_BINARY_DIR = G:\code\temp\tor_project\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/tor_video.dir/clean
 CMakeFiles/tor_video.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tor_video.dir\build.make CMakeFiles/tor_video.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tor_video.dir\build.make CMakeFiles/tor_video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\code\open_src\tor_project\build\CMakeFiles --progress-num=1,2,3 "Built target tor_video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\code\temp\tor_project\build\CMakeFiles --progress-num=1,2,3 "Built target tor_video"
 .PHONY : CMakeFiles/tor_video.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tor_video.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\code\open_src\tor_project\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\code\temp\tor_project\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tor_video.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\code\open_src\tor_project\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\code\temp\tor_project\build\CMakeFiles 0
 .PHONY : CMakeFiles/tor_video.dir/rule
 
 # Convenience name for target.
